@@ -1,0 +1,32 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: space-between;
+	background-color: pink;
+}
+
+.container-cell {
+	width: 50%;
+	height: 80%;
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	grid-template-rows: 25% 25% 25% 25%;
+	background-color: white;
+}
+
+.container-piece {
+	width: 50%;
+	height: 80%;
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	grid-template-rows: 25% 25% 25% 25%;
+	background-color: #5214ff
+	
+
+}
